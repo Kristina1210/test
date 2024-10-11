@@ -1,0 +1,8 @@
+INDEX VERSION 1.134+C:\Talend\8.0.1\studio\workspace\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+4231799000.index
+842616468.index
+1986109979.index
+71302448.index
+179447914.index
+3985172030.index
