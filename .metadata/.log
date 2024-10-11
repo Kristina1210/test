@@ -1,0 +1,1304 @@
+!SESSION 2024-10-10 10:07:53.811 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.12
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2024-10-10 10:08:21.594
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2024-10-10 10:08:21.597
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [21]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-10-10 10:08:39.459
+!MESSAGE Both 'org.talend.designer.unitemap' and 'org.talend.designer.unitemap' register a package for 'http://www.talend.org/unitemap'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-10-10 10:08:39.460
+!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'http://www.talend.org/component_cache'
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-10 10:08:54.279
+!MESSAGE 2024-10-10 10:08:54,278 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.metadata.bridge.ui, imagePath=icons/export_action.gif, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-10 10:08:54.281
+!MESSAGE 2024-10-10 10:08:54,279 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.metadata.bridge.ui, imagePath=icons/import_action.gif, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-10 10:08:54.283
+!MESSAGE 2024-10-10 10:08:54,282 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/create-route-resource.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-10 10:08:54.284
+!MESSAGE 2024-10-10 10:08:54,283 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/edit-resource.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-10 10:08:54.286
+!MESSAGE 2024-10-10 10:08:54,285 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/open-another-version.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-10 10:08:54.288
+!MESSAGE 2024-10-10 10:08:54,287 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/resource.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-10 10:08:54.289
+!MESSAGE 2024-10-10 10:08:54,289 INFO  org.talend.themes.common.ImagesMapping  - Loaded icon defination: org.talend.themes.common, /resources/mapping.json
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-10 10:08:54.299
+!MESSAGE 2024-10-10 10:08:54,298 INFO  org.talend.themes.common.ImagesMapping  - Loaded icon defination: org.talend.themes.common, /resources/scaled/mapping.json
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-10 10:09:06.839
+!MESSAGE 2024-10-10 10:09:06,839 INFO  org.talend.rcp.intro.Application  - 
+!!------------------------------------------------------------------------------!!
+!!                                                                              !!
+!!                                    TALEND                                    !!
+!!   Starting Talend's platform log system.VERSION= 8.0.1.20240524_0800-patch   !!
+!!                                                                              !!
+!!------------------------------------------------------------------------------!!
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-10 10:09:07.738
+!MESSAGE 2024-10-10 10:09:07,737 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into http.nonProxyHosts: [localhost, 0:0:0:0:0:0:0:1, 127.0.0.1]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-10 10:09:07.739
+!MESSAGE 2024-10-10 10:09:07,738 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into https.nonProxyHosts: [localhost, 0:0:0:0:0:0:0:1, 127.0.0.1]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-10 10:09:07.752
+!MESSAGE 2024-10-10 10:09:07,751 INFO  org.talend.studiolite.p2.api.P2Util  - Is upgrading target platform: false
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-10 10:09:19.752
+!MESSAGE 2024-10-10 10:09:19,752 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Start to check bundles OS issue.
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-10 10:09:19.754
+!MESSAGE 2024-10-10 10:09:19,753 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Remove invalid OS related plugins from config.ini
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-10 10:09:19.756
+!MESSAGE 2024-10-10 10:09:19,755 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Remove invalid OS related plugins from bundles.info
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-10 10:09:19.780
+!MESSAGE 2024-10-10 10:09:19,780 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Fixed bundles OS issue.
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-10 10:18:34.201
+!MESSAGE 2024-10-10 10:18:34,201 INFO  org.talend.repository.ui.login.LoginProjectPage  - start to update git storage mode
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-10 10:18:34.536
+!MESSAGE 2024-10-10 10:18:34,535 INFO  org.talend.repository.ui.login.LoginProjectPage  - updated git storage mode to standard
+
+!SESSION 2024-10-10 10:20:47.293 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.12
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-10-10 10:21:06.101
+!MESSAGE Both 'org.talend.designer.unitemap' and 'org.talend.designer.unitemap' register a package for 'http://www.talend.org/unitemap'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-10-10 10:21:06.103
+!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'http://www.talend.org/component_cache'
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-10 10:21:08.668
+!MESSAGE 2024-10-10 10:21:08,666 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.metadata.bridge.ui, imagePath=icons/export_action.gif, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-10 10:21:08.669
+!MESSAGE 2024-10-10 10:21:08,668 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.metadata.bridge.ui, imagePath=icons/import_action.gif, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-10 10:21:08.671
+!MESSAGE 2024-10-10 10:21:08,670 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/create-route-resource.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-10 10:21:08.672
+!MESSAGE 2024-10-10 10:21:08,671 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/edit-resource.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-10 10:21:08.674
+!MESSAGE 2024-10-10 10:21:08,672 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/open-another-version.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-10 10:21:08.675
+!MESSAGE 2024-10-10 10:21:08,674 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/resource.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-10 10:21:08.677
+!MESSAGE 2024-10-10 10:21:08,676 INFO  org.talend.themes.common.ImagesMapping  - Loaded icon defination: org.talend.themes.common, /resources/mapping.json
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-10 10:21:08.684
+!MESSAGE 2024-10-10 10:21:08,683 INFO  org.talend.themes.common.ImagesMapping  - Loaded icon defination: org.talend.themes.common, /resources/scaled/mapping.json
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-10 10:21:20.852
+!MESSAGE 2024-10-10 10:21:20,852 INFO  org.talend.rcp.intro.Application  - 
+!!------------------------------------------------------------------------------!!
+!!                                                                              !!
+!!                                    TALEND                                    !!
+!!   Starting Talend's platform log system.VERSION= 8.0.1.20240524_0800-patch   !!
+!!                                                                              !!
+!!------------------------------------------------------------------------------!!
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-10 10:21:21.737
+!MESSAGE 2024-10-10 10:21:21,737 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into http.nonProxyHosts: [localhost, 0:0:0:0:0:0:0:1, 127.0.0.1]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-10 10:21:21.739
+!MESSAGE 2024-10-10 10:21:21,738 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into https.nonProxyHosts: [localhost, 0:0:0:0:0:0:0:1, 127.0.0.1]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-10 10:21:21.758
+!MESSAGE 2024-10-10 10:21:21,757 INFO  org.talend.studiolite.p2.api.P2Util  - Is upgrading target platform: false
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-10-10 10:21:21.992
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-10 10:21:35.627
+!MESSAGE 2024-10-10 10:21:35,627 INFO  org.talend.repository.ui.login.LoginProjectPage  - start to update git storage mode
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-10 10:21:36.020
+!MESSAGE 2024-10-10 10:21:36,020 INFO  org.talend.repository.ui.login.LoginProjectPage  - updated git storage mode to standard
+
+!SESSION 2024-10-11 10:39:58.658 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.12
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-10-11 10:40:04.004
+!MESSAGE Both 'org.talend.designer.unitemap' and 'org.talend.designer.unitemap' register a package for 'http://www.talend.org/unitemap'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-10-11 10:40:04.006
+!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'http://www.talend.org/component_cache'
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 10:40:05.777
+!MESSAGE 2024-10-11 10:40:05,775 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.metadata.bridge.ui, imagePath=icons/export_action.gif, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 10:40:05.779
+!MESSAGE 2024-10-11 10:40:05,778 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.metadata.bridge.ui, imagePath=icons/import_action.gif, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 10:40:05.781
+!MESSAGE 2024-10-11 10:40:05,780 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/create-route-resource.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 10:40:05.783
+!MESSAGE 2024-10-11 10:40:05,781 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/edit-resource.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 10:40:05.784
+!MESSAGE 2024-10-11 10:40:05,783 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/open-another-version.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 10:40:05.786
+!MESSAGE 2024-10-11 10:40:05,785 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/resource.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 10:40:05.788
+!MESSAGE 2024-10-11 10:40:05,787 INFO  org.talend.themes.common.ImagesMapping  - Loaded icon defination: org.talend.themes.common, /resources/mapping.json
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 10:40:05.796
+!MESSAGE 2024-10-11 10:40:05,795 INFO  org.talend.themes.common.ImagesMapping  - Loaded icon defination: org.talend.themes.common, /resources/scaled/mapping.json
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 10:40:07.844
+!MESSAGE 2024-10-11 10:40:07,844 INFO  org.talend.rcp.intro.Application  - 
+!!------------------------------------------------------------------------------!!
+!!                                                                              !!
+!!                                    TALEND                                    !!
+!!   Starting Talend's platform log system.VERSION= 8.0.1.20240524_0800-patch   !!
+!!                                                                              !!
+!!------------------------------------------------------------------------------!!
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 10:40:08.264
+!MESSAGE 2024-10-11 10:40:08,263 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into http.nonProxyHosts: [localhost, 172.26.*, 172.27.*, 172.16.*, 172.24.*, 172.25.*, 172.18.*, <local>, 172.17.*, 172.28.*, 172.19.*, 172.29.*, 10.*, 192.168.*, 127.*, 172.30.*, 172.22.*, 0:0:0:0:0:0:0:1, 172.23.*, 127.0.0.1, 172.20.*, 172.31.*, 172.21.*]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 10:40:08.266
+!MESSAGE 2024-10-11 10:40:08,264 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into https.nonProxyHosts: [localhost, 172.26.*, 172.27.*, 172.16.*, 172.24.*, 172.25.*, 172.18.*, <local>, 172.17.*, 172.28.*, 172.19.*, 172.29.*, 10.*, 192.168.*, 127.*, 172.30.*, 172.22.*, 0:0:0:0:0:0:0:1, 172.23.*, 127.0.0.1, 172.20.*, 172.31.*, 172.21.*]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 10:40:08.313
+!MESSAGE 2024-10-11 10:40:08,312 INFO  org.talend.studiolite.p2.api.P2Util  - Is upgrading target platform: false
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-10-11 10:40:08.446
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 10:40:16.126
+!MESSAGE 2024-10-11 10:40:16,125 INFO  org.talend.repository.ui.login.LoginProjectPage  - start to update git storage mode
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 10:40:16.152
+!MESSAGE 2024-10-11 10:40:16,152 INFO  org.talend.repository.ui.login.LoginProjectPage  - updated git storage mode to standard
+
+!SESSION 2024-10-11 10:40:36.423 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.12
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-10-11 10:40:39.872
+!MESSAGE Both 'org.talend.designer.unitemap' and 'org.talend.designer.unitemap' register a package for 'http://www.talend.org/unitemap'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-10-11 10:40:39.874
+!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'http://www.talend.org/component_cache'
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 10:40:41.501
+!MESSAGE 2024-10-11 10:40:41,499 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.metadata.bridge.ui, imagePath=icons/export_action.gif, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 10:40:41.503
+!MESSAGE 2024-10-11 10:40:41,501 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.metadata.bridge.ui, imagePath=icons/import_action.gif, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 10:40:41.506
+!MESSAGE 2024-10-11 10:40:41,504 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/create-route-resource.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 10:40:41.508
+!MESSAGE 2024-10-11 10:40:41,506 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/edit-resource.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 10:40:41.510
+!MESSAGE 2024-10-11 10:40:41,508 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/open-another-version.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 10:40:41.512
+!MESSAGE 2024-10-11 10:40:41,511 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/resource.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 10:40:41.514
+!MESSAGE 2024-10-11 10:40:41,513 INFO  org.talend.themes.common.ImagesMapping  - Loaded icon defination: org.talend.themes.common, /resources/mapping.json
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 10:40:41.522
+!MESSAGE 2024-10-11 10:40:41,521 INFO  org.talend.themes.common.ImagesMapping  - Loaded icon defination: org.talend.themes.common, /resources/scaled/mapping.json
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 10:40:43.019
+!MESSAGE 2024-10-11 10:40:43,018 INFO  org.talend.rcp.intro.Application  - 
+!!------------------------------------------------------------------------------!!
+!!                                                                              !!
+!!                                    TALEND                                    !!
+!!   Starting Talend's platform log system.VERSION= 8.0.1.20240524_0800-patch   !!
+!!                                                                              !!
+!!------------------------------------------------------------------------------!!
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 10:40:43.326
+!MESSAGE 2024-10-11 10:40:43,325 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into http.nonProxyHosts: [localhost, 172.26.*, 172.27.*, 172.16.*, 172.24.*, 172.25.*, 172.18.*, <local>, 172.17.*, 172.28.*, 172.19.*, 172.29.*, 10.*, 192.168.*, 127.*, 172.30.*, 172.22.*, 0:0:0:0:0:0:0:1, 172.23.*, 127.0.0.1, 172.20.*, 172.31.*, 172.21.*]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 10:40:43.329
+!MESSAGE 2024-10-11 10:40:43,327 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into https.nonProxyHosts: [localhost, 172.26.*, 172.27.*, 172.16.*, 172.24.*, 172.25.*, 172.18.*, <local>, 172.17.*, 172.28.*, 172.19.*, 172.29.*, 10.*, 192.168.*, 127.*, 172.30.*, 172.22.*, 0:0:0:0:0:0:0:1, 172.23.*, 127.0.0.1, 172.20.*, 172.31.*, 172.21.*]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 10:40:43.360
+!MESSAGE 2024-10-11 10:40:43,360 INFO  org.talend.studiolite.p2.api.P2Util  - Is upgrading target platform: false
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-10-11 10:40:43.473
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.net 1 0 2024-10-11 10:41:00.158
+!MESSAGE System property http.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-10-11 10:41:00.161
+!MESSAGE System property http.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-10-11 10:41:00.163
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2024-10-11 10:41:00.165
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 10:41:06.914
+!MESSAGE 2024-10-11 10:41:06,913 INFO  org.talend.repository.ui.login.LoginProjectPage  - start to update git storage mode
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 10:41:06.937
+!MESSAGE 2024-10-11 10:41:06,936 INFO  org.talend.repository.ui.login.LoginProjectPage  - updated git storage mode to standard
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 10:41:10.631
+!MESSAGE 2024-10-11 10:41:10,630 INFO  org.talend.repository.ui.login.LoginProjectPage  - start to update git storage mode
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 10:41:10.632
+!MESSAGE 2024-10-11 10:41:10,632 INFO  org.talend.repository.ui.login.LoginProjectPage  - git storage mode was already set, standard: true
+
+
+!ENTRY org.talend.platform.logging 4 0 2024-10-11 11:17:29.223
+!MESSAGE 2024-10-11 11:17:29,222 ERROR org.talend.studiolite.p2.featmanage.StudioLiteP2FeatManage  - No version found in test, skip project compatibility check.
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:17:36.821
+!MESSAGE 2024-10-11 11:17:36,820 INFO  org.talend.sdk.component.studio.ProcessManager  - Local addresses passed to sdk: [127.0.0.1, [0:0:0:0:0:0:0:1]]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:17:38.878
+!MESSAGE 2024-10-11 11:17:38,877 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:17:39.495
+!MESSAGE 2024-10-11 11:17:39,495 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - coco@123.com 登录到 test
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:17:40.273
+!MESSAGE 2024-10-11 11:17:40,272 INFO  org.talend.sdk.component.studio.ProcessManager  - Succeed to connect [http://127.0.0.1:51990/api/v1/environment]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:17:40.438
+!MESSAGE 2024-10-11 11:17:40,437 INFO  org.talend.designer.maven.launch.TalendMavenLaunchDelegate  - C:\Talend\8.0.1\studio\workspace\TEST\poms
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:17:40.445
+!MESSAGE 2024-10-11 11:17:40,440 INFO  org.talend.designer.maven.launch.TalendMavenLaunchDelegate  -  mvn -B -o -s C:\Talend\8.0.1\studio\configuration\maven_user_settings.xml install -N -Dci.builder.skip=true -Dlicense.path="C:\Talend\8.0.1\studio\license" -Dsession.id=MTM3NDM0MTcyODYxNjY2MDM0Nw==
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:17:42.163
+!MESSAGE 2024-10-11 11:17:42,162 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:17:42.393
+!MESSAGE 2024-10-11 11:17:42,392 INFO  org.talend.designer.codegen.components.model.ComponentsLoader  - allSet size: 635, total: 635
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:17:46.428
+!MESSAGE 2024-10-11 11:17:46,427 INFO  org.talend.designer.codegen.components.model.ComponentsFactory  - 692 components loaded in 4156 ms
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:17:47.479
+!MESSAGE 2024-10-11 11:17:47,478 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: DATAPROC-LAUNCHER-DI
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:17:47.481
+!MESSAGE 2024-10-11 11:17:47,479 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HIVE-2.X.X
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:17:47.483
+!MESSAGE 2024-10-11 11:17:47,481 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HADOOP-3.X.X
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:17:47.485
+!MESSAGE 2024-10-11 11:17:47,483 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HADOOP-2.X.X
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:17:47.541
+!MESSAGE 2024-10-11 11:17:47,540 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: DATAPROC-LAUNCHER-DI
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:17:47.544
+!MESSAGE 2024-10-11 11:17:47,542 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HIVE-2.X.X
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:17:47.547
+!MESSAGE 2024-10-11 11:17:47,544 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HADOOP-3.X.X
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:17:47.551
+!MESSAGE 2024-10-11 11:17:47,548 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HADOOP-2.X.X
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:17:47.603
+!MESSAGE 2024-10-11 11:17:47,602 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: DATAPROC-LAUNCHER-DI
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:17:47.606
+!MESSAGE 2024-10-11 11:17:47,603 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HIVE-2.X.X
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:17:47.609
+!MESSAGE 2024-10-11 11:17:47,607 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HADOOP-3.X.X
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:17:47.612
+!MESSAGE 2024-10-11 11:17:47,609 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HADOOP-2.X.X
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:17:47.753
+!MESSAGE 2024-10-11 11:17:47,753 INFO  org.talend.repository.view.remote.InitializeLockStatusLoginTask  - Initialize lock status
+
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-11 11:17:51.895
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yyyan'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:17:53.728
+!MESSAGE 2024-10-11 11:17:53,728 INFO  org.talend.designer.maven.launch.TalendMavenLaunchDelegate  - C:\Talend\8.0.1\studio\workspace\TEST\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:17:53.732
+!MESSAGE 2024-10-11 11:17:53,729 INFO  org.talend.designer.maven.launch.TalendMavenLaunchDelegate  -  mvn -B -o -s C:\Talend\8.0.1\studio\configuration\maven_user_settings.xml install -Dmaven.main.skip=true -Dci.builder.skip=true -Dlicense.path="C:\Talend\8.0.1\studio\license" -Dsession.id=MzMzMjMyMTcyODYxNjY3MzcxOQ==
+
+
+!ENTRY org.talend.platform.logging 4 0 2024-10-11 11:17:55.260
+!MESSAGE 2024-10-11 11:17:55,258 ERROR org.talend.commons.exception.CommonExceptionHandler  - A JSONObject text must begin with '{' at 1 [character 2 line 1]
+
+!STACK 0
+us.monoid.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+	at us.monoid.json.JSONTokener.syntaxError(JSONTokener.java:423)
+	at us.monoid.json.JSONObject.<init>(JSONObject.java:190)
+	at us.monoid.json.JSONObject.<init>(JSONObject.java:321)
+	at org.talend.core.ui.token.TokenCollectorFactory$2.run(TokenCollectorFactory.java:340)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:18:07.759
+!MESSAGE 2024-10-11 11:18:07,759 INFO  org.talend.designer.maven.launch.TalendMavenLaunchDelegate  - C:\Talend\8.0.1\studio\workspace\TEST\poms\code\beans
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:18:07.762
+!MESSAGE 2024-10-11 11:18:07,760 INFO  org.talend.designer.maven.launch.TalendMavenLaunchDelegate  -  mvn -B -o -s C:\Talend\8.0.1\studio\configuration\maven_user_settings.xml install -Dmaven.main.skip=true -Dci.builder.skip=true -Dlicense.path="C:\Talend\8.0.1\studio\license" -Dsession.id=MTgzNzQ0MTcyODYxNjY4NzczNw==
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:27:42.465
+!MESSAGE 2024-10-11 11:27:42,465 INFO  org.talend.core.model.relationship.RelationshipItemBuilder  - relationship.index generating
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:27:42.504
+!MESSAGE 2024-10-11 11:27:42,504 INFO  org.talend.core.model.relationship.RelationshipItemBuilder  - relationship.index generated
+
+
+!ENTRY org.eclipse.ui 4 0 2024-10-11 11:27:49.777
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:450)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:369)
+	at org.eclipse.swt.browser.Browser.checkWidget(Browser.java:211)
+	at org.eclipse.swt.browser.Browser.setText(Browser.java:1086)
+	at org.talend.presentation.onboarding.ui.composites.OnBoardingContentComposite$1$1.run(OnBoardingContentComposite.java:70)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4046)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.talend.rcp.intro.Application.start(Application.java:318)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-10-11 11:30:35.961
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2024-10-11 11:30:44.064 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.12
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-10-11 11:30:45.737
+!MESSAGE Both 'org.talend.designer.unitemap' and 'org.talend.designer.unitemap' register a package for 'http://www.talend.org/unitemap'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-10-11 11:30:45.739
+!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'http://www.talend.org/component_cache'
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:30:47.406
+!MESSAGE 2024-10-11 11:30:47,404 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.metadata.bridge.ui, imagePath=icons/export_action.gif, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:30:47.408
+!MESSAGE 2024-10-11 11:30:47,406 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.metadata.bridge.ui, imagePath=icons/import_action.gif, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:30:47.410
+!MESSAGE 2024-10-11 11:30:47,410 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/create-route-resource.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:30:47.413
+!MESSAGE 2024-10-11 11:30:47,411 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/edit-resource.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:30:47.416
+!MESSAGE 2024-10-11 11:30:47,413 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/open-another-version.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:30:47.418
+!MESSAGE 2024-10-11 11:30:47,416 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/resource.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:30:47.420
+!MESSAGE 2024-10-11 11:30:47,419 INFO  org.talend.themes.common.ImagesMapping  - Loaded icon defination: org.talend.themes.common, /resources/mapping.json
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:30:47.430
+!MESSAGE 2024-10-11 11:30:47,429 INFO  org.talend.themes.common.ImagesMapping  - Loaded icon defination: org.talend.themes.common, /resources/scaled/mapping.json
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:30:50.829
+!MESSAGE 2024-10-11 11:30:50,829 INFO  org.talend.rcp.intro.Application  - 
+!!------------------------------------------------------------------------------!!
+!!                                                                              !!
+!!                                    TALEND                                    !!
+!!   Starting Talend's platform log system.VERSION= 8.0.1.20240524_0800-patch   !!
+!!                                                                              !!
+!!------------------------------------------------------------------------------!!
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:30:51.174
+!MESSAGE 2024-10-11 11:30:51,173 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into http.nonProxyHosts: [localhost, 172.26.*, 172.27.*, 172.16.*, 172.24.*, 172.25.*, 172.18.*, <local>, 172.17.*, 172.28.*, 172.19.*, 172.29.*, 10.*, 192.168.*, 127.*, 172.30.*, 172.22.*, 0:0:0:0:0:0:0:1, 172.23.*, 127.0.0.1, 172.20.*, 172.31.*, 172.21.*]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:30:51.176
+!MESSAGE 2024-10-11 11:30:51,174 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into https.nonProxyHosts: [localhost, 172.26.*, 172.27.*, 172.16.*, 172.24.*, 172.25.*, 172.18.*, <local>, 172.17.*, 172.28.*, 172.19.*, 172.29.*, 10.*, 192.168.*, 127.*, 172.30.*, 172.22.*, 0:0:0:0:0:0:0:1, 172.23.*, 127.0.0.1, 172.20.*, 172.31.*, 172.21.*]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:30:51.210
+!MESSAGE 2024-10-11 11:30:51,209 INFO  org.talend.studiolite.p2.api.P2Util  - Is upgrading target platform: false
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-10-11 11:30:51.334
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:30:54.779
+!MESSAGE 2024-10-11 11:30:54,778 INFO  org.talend.repository.ui.login.LoginProjectPage  - start to update git storage mode
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:30:54.806
+!MESSAGE 2024-10-11 11:30:54,806 INFO  org.talend.repository.ui.login.LoginProjectPage  - git storage mode was already set, standard: true
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:31:04.422
+!MESSAGE 2024-10-11 11:31:04,421 INFO  org.talend.sdk.component.studio.ProcessManager  - Local addresses passed to sdk: [127.0.0.1, [0:0:0:0:0:0:0:1]]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:31:10.226
+!MESSAGE 2024-10-11 11:31:10,225 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - coco@123.com 登录到 test
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:31:11.122
+!MESSAGE 2024-10-11 11:31:11,121 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:31:15.278
+!MESSAGE 2024-10-11 11:31:15,277 INFO  org.talend.sdk.component.studio.ProcessManager  - Succeed to connect [http://127.0.0.1:53081/api/v1/environment]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:31:15.627
+!MESSAGE 2024-10-11 11:31:15,627 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:31:15.654
+!MESSAGE 2024-10-11 11:31:15,644 INFO  org.talend.repository.view.remote.InitializeLockStatusLoginTask  - Initialize lock status
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:31:16.256
+!MESSAGE 2024-10-11 11:31:16,255 INFO  org.talend.designer.codegen.components.model.ComponentsLoader  - allSet size: 635, total: 635
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:31:22.566
+!MESSAGE 2024-10-11 11:31:22,565 INFO  org.talend.designer.codegen.components.model.ComponentsFactory  - 692 components loaded in 6616 ms
+
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-11 11:31:49.154
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yyyan'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:33:11.733
+!MESSAGE 2024-10-11 11:33:11,731 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: DATAPROC-LAUNCHER-DI
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:33:11.738
+!MESSAGE 2024-10-11 11:33:11,734 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HIVE-2.X.X
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:33:11.740
+!MESSAGE 2024-10-11 11:33:11,738 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HADOOP-3.X.X
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:33:11.743
+!MESSAGE 2024-10-11 11:33:11,741 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HADOOP-2.X.X
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:33:11.804
+!MESSAGE 2024-10-11 11:33:11,804 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: DATAPROC-LAUNCHER-DI
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:33:11.807
+!MESSAGE 2024-10-11 11:33:11,805 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HIVE-2.X.X
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:33:11.810
+!MESSAGE 2024-10-11 11:33:11,807 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HADOOP-3.X.X
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:33:11.812
+!MESSAGE 2024-10-11 11:33:11,810 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HADOOP-2.X.X
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:33:11.842
+!MESSAGE 2024-10-11 11:33:11,841 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: DATAPROC-LAUNCHER-DI
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:33:11.845
+!MESSAGE 2024-10-11 11:33:11,842 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HIVE-2.X.X
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:33:11.848
+!MESSAGE 2024-10-11 11:33:11,846 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HADOOP-3.X.X
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:33:11.851
+!MESSAGE 2024-10-11 11:33:11,849 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HADOOP-2.X.X
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:37:06.247
+!MESSAGE 2024-10-11 11:37:06,246 INFO  org.talend.commons.exception.CommonExceptionHandler  - missing jar:json-smart-2.4.11.jar
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:37:06.270
+!MESSAGE 2024-10-11 11:37:06,269 INFO  org.talend.commons.exception.CommonExceptionHandler  - missing jar:commons-lang3-3.10.jar
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:37:06.290
+!MESSAGE 2024-10-11 11:37:06,290 INFO  org.talend.commons.exception.CommonExceptionHandler  - missing jar:accessors-smart-2.4.11.jar
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:37:16.462
+!MESSAGE 2024-10-11 11:37:16,462 INFO  org.talend.designer.runprocess.maven.MavenJavaProcessor  - build, threadParam: -T 1C
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:37:18.527
+!MESSAGE 2024-10-11 11:37:18,527 INFO  org.talend.designer.core.runprocess.Processor  - 命令行: D:/software/java/jdk-17/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -Dtalend.component.manager.m2.repository=C:/Talend/8.0.1/studio/configuration/.m2/repository -Dencryption.keys.file=/C:/Talend/8.0.1/studio/configuration/studio.keys -cp C:/Talend/8.0.1/studio/workspace/TEST/poms/jobs/process/demo/test_java_0.1/target/classpath.jar;/C:/Talend/8.0.1/studio/configuration/.m2/repository/org/apache/commons/commons-lang3/3.10/commons-lang3-3.10.jar; test.test_java_0_1.test_java --context=Default --stat_port=4072 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:37:58.151
+!MESSAGE 2024-10-11 11:37:58,150 INFO  org.talend.designer.maven.launch.TalendMavenLaunchDelegate  - C:\Talend\8.0.1\studio\workspace\TEST\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:37:58.153
+!MESSAGE 2024-10-11 11:37:58,153 INFO  org.talend.designer.maven.launch.TalendMavenLaunchDelegate  -  mvn -B -o -s C:\Talend\8.0.1\studio\configuration\maven_user_settings.xml install -Dmaven.main.skip=true -Dci.builder.skip=true -Dlicense.path="C:\Talend\8.0.1\studio\license" -Dsession.id=Mjc3NzIzMTcyODYxNzg3ODEwMw==
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:38:07.328
+!MESSAGE 2024-10-11 11:38:07,327 INFO  org.talend.designer.maven.launch.TalendMavenLaunchDelegate  - C:\Talend\8.0.1\studio\workspace\TEST\poms\code\beans
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:38:07.330
+!MESSAGE 2024-10-11 11:38:07,329 INFO  org.talend.designer.maven.launch.TalendMavenLaunchDelegate  -  mvn -B -o -s C:\Talend\8.0.1\studio\configuration\maven_user_settings.xml install -Dmaven.main.skip=true -Dci.builder.skip=true -Dlicense.path="C:\Talend\8.0.1\studio\license" -Dsession.id=MTM1Mzc1MTcyODYxNzg4NzMwOQ==
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:38:15.714
+!MESSAGE 2024-10-11 11:38:15,714 INFO  org.talend.designer.runprocess.maven.MavenJavaProcessor  - build, threadParam: -T 1C
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:38:16.430
+!MESSAGE 2024-10-11 11:38:16,429 INFO  org.talend.designer.core.runprocess.Processor  - 命令行: D:/software/java/jdk-1.8/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -Dtalend.component.manager.m2.repository=C:/Talend/8.0.1/studio/configuration/.m2/repository -Dencryption.keys.file=/C:/Talend/8.0.1/studio/configuration/studio.keys -cp C:/Talend/8.0.1/studio/workspace/TEST/poms/jobs/process/demo/test_java_0.1/target/classpath.jar;/C:/Talend/8.0.1/studio/configuration/.m2/repository/org/apache/commons/commons-lang3/3.10/commons-lang3-3.10.jar; test.test_java_0_1.test_java --context=Default --stat_port=3664 %*
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-10-11 11:38:27.404
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2024-10-11 11:38:50.129 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.12
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-10-11 11:38:51.525
+!MESSAGE Both 'org.talend.designer.unitemap' and 'org.talend.designer.unitemap' register a package for 'http://www.talend.org/unitemap'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-10-11 11:38:51.526
+!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'http://www.talend.org/component_cache'
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:38:52.795
+!MESSAGE 2024-10-11 11:38:52,793 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.metadata.bridge.ui, imagePath=icons/export_action.gif, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:38:52.798
+!MESSAGE 2024-10-11 11:38:52,796 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.metadata.bridge.ui, imagePath=icons/import_action.gif, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:38:52.801
+!MESSAGE 2024-10-11 11:38:52,799 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/create-route-resource.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:38:52.803
+!MESSAGE 2024-10-11 11:38:52,801 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/edit-resource.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:38:52.806
+!MESSAGE 2024-10-11 11:38:52,803 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/open-another-version.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:38:52.808
+!MESSAGE 2024-10-11 11:38:52,806 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/resource.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:38:52.810
+!MESSAGE 2024-10-11 11:38:52,809 INFO  org.talend.themes.common.ImagesMapping  - Loaded icon defination: org.talend.themes.common, /resources/mapping.json
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:38:52.819
+!MESSAGE 2024-10-11 11:38:52,819 INFO  org.talend.themes.common.ImagesMapping  - Loaded icon defination: org.talend.themes.common, /resources/scaled/mapping.json
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:38:55.927
+!MESSAGE 2024-10-11 11:38:55,927 INFO  org.talend.rcp.intro.Application  - 
+!!------------------------------------------------------------------------------!!
+!!                                                                              !!
+!!                                    TALEND                                    !!
+!!   Starting Talend's platform log system.VERSION= 8.0.1.20240524_0800-patch   !!
+!!                                                                              !!
+!!------------------------------------------------------------------------------!!
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:38:56.216
+!MESSAGE 2024-10-11 11:38:56,216 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into http.nonProxyHosts: [localhost, 172.26.*, 172.27.*, 172.16.*, 172.24.*, 172.25.*, 172.18.*, <local>, 172.17.*, 172.28.*, 172.19.*, 172.29.*, 10.*, 192.168.*, 127.*, 172.30.*, 172.22.*, 0:0:0:0:0:0:0:1, 172.23.*, 127.0.0.1, 172.20.*, 172.31.*, 172.21.*]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:38:56.219
+!MESSAGE 2024-10-11 11:38:56,217 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into https.nonProxyHosts: [localhost, 172.26.*, 172.27.*, 172.16.*, 172.24.*, 172.25.*, 172.18.*, <local>, 172.17.*, 172.28.*, 172.19.*, 172.29.*, 10.*, 192.168.*, 127.*, 172.30.*, 172.22.*, 0:0:0:0:0:0:0:1, 172.23.*, 127.0.0.1, 172.20.*, 172.31.*, 172.21.*]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:38:56.246
+!MESSAGE 2024-10-11 11:38:56,245 INFO  org.talend.studiolite.p2.api.P2Util  - Is upgrading target platform: false
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-10-11 11:38:56.366
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:38:58.838
+!MESSAGE 2024-10-11 11:38:58,837 INFO  org.talend.repository.ui.login.LoginProjectPage  - start to update git storage mode
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:38:58.871
+!MESSAGE 2024-10-11 11:38:58,870 INFO  org.talend.repository.ui.login.LoginProjectPage  - git storage mode was already set, standard: true
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:39:08.360
+!MESSAGE 2024-10-11 11:39:08,360 INFO  org.talend.sdk.component.studio.ProcessManager  - Local addresses passed to sdk: [127.0.0.1, [0:0:0:0:0:0:0:1]]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:39:10.898
+!MESSAGE 2024-10-11 11:39:10,897 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:39:11.097
+!MESSAGE 2024-10-11 11:39:11,097 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - coco@123.com 登录到 test
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:39:12.975
+!MESSAGE 2024-10-11 11:39:12,975 INFO  org.talend.sdk.component.studio.ProcessManager  - Succeed to connect [http://127.0.0.1:53863/api/v1/environment]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:39:14.407
+!MESSAGE 2024-10-11 11:39:14,406 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:39:14.421
+!MESSAGE 2024-10-11 11:39:14,421 INFO  org.talend.repository.view.remote.InitializeLockStatusLoginTask  - Initialize lock status
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:39:14.904
+!MESSAGE 2024-10-11 11:39:14,904 INFO  org.talend.designer.codegen.components.model.ComponentsLoader  - allSet size: 635, total: 635
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:39:20.695
+!MESSAGE 2024-10-11 11:39:20,694 INFO  org.talend.designer.codegen.components.model.ComponentsFactory  - 692 components loaded in 6116 ms
+
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-11 11:39:46.828
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yyyan'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:39:54.588
+!MESSAGE 2024-10-11 11:39:54,587 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: DATAPROC-LAUNCHER-DI
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:39:54.590
+!MESSAGE 2024-10-11 11:39:54,589 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HIVE-2.X.X
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:39:54.592
+!MESSAGE 2024-10-11 11:39:54,591 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HADOOP-3.X.X
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:39:54.595
+!MESSAGE 2024-10-11 11:39:54,593 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HADOOP-2.X.X
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:39:54.633
+!MESSAGE 2024-10-11 11:39:54,632 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: DATAPROC-LAUNCHER-DI
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:39:54.635
+!MESSAGE 2024-10-11 11:39:54,633 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HIVE-2.X.X
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:39:54.638
+!MESSAGE 2024-10-11 11:39:54,636 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HADOOP-3.X.X
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:39:54.640
+!MESSAGE 2024-10-11 11:39:54,638 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HADOOP-2.X.X
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:39:54.665
+!MESSAGE 2024-10-11 11:39:54,664 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: DATAPROC-LAUNCHER-DI
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:39:54.667
+!MESSAGE 2024-10-11 11:39:54,665 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HIVE-2.X.X
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:39:54.669
+!MESSAGE 2024-10-11 11:39:54,667 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HADOOP-3.X.X
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 11:39:54.671
+!MESSAGE 2024-10-11 11:39:54,670 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HADOOP-2.X.X
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:40:06.165
+!MESSAGE 2024-10-11 11:40:06,164 INFO  org.talend.designer.runprocess.maven.MavenJavaProcessor  - build, threadParam: -T 1C
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 11:40:08.185
+!MESSAGE 2024-10-11 11:40:08,184 INFO  org.talend.designer.core.runprocess.Processor  - 命令行: D:/software/java/jdk-1.8/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -Dtalend.component.manager.m2.repository=C:/Talend/8.0.1/studio/configuration/.m2/repository -Dencryption.keys.file=/C:/Talend/8.0.1/studio/configuration/studio.keys -cp C:/Talend/8.0.1/studio/workspace/TEST/poms/jobs/process/demo/test_java_0.1/target/classpath.jar;/C:/Talend/8.0.1/studio/configuration/.m2/repository/org/apache/commons/commons-lang3/3.10/commons-lang3-3.10.jar; test.test_java_0_1.test_java --context=Default --stat_port=3394 %*
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-10-11 11:43:27.089
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2024-10-11 16:52:19.799 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.12
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-10-11 16:52:21.523
+!MESSAGE Both 'org.talend.designer.unitemap' and 'org.talend.designer.unitemap' register a package for 'http://www.talend.org/unitemap'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-10-11 16:52:21.525
+!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'http://www.talend.org/component_cache'
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 16:52:23.578
+!MESSAGE 2024-10-11 16:52:23,576 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.metadata.bridge.ui, imagePath=icons/export_action.gif, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 16:52:23.580
+!MESSAGE 2024-10-11 16:52:23,578 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.metadata.bridge.ui, imagePath=icons/import_action.gif, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 16:52:23.584
+!MESSAGE 2024-10-11 16:52:23,582 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/create-route-resource.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 16:52:23.586
+!MESSAGE 2024-10-11 16:52:23,584 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/edit-resource.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 16:52:23.589
+!MESSAGE 2024-10-11 16:52:23,587 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/open-another-version.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 16:52:23.591
+!MESSAGE 2024-10-11 16:52:23,589 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/resource.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 16:52:23.593
+!MESSAGE 2024-10-11 16:52:23,592 INFO  org.talend.themes.common.ImagesMapping  - Loaded icon defination: org.talend.themes.common, /resources/mapping.json
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 16:52:23.602
+!MESSAGE 2024-10-11 16:52:23,601 INFO  org.talend.themes.common.ImagesMapping  - Loaded icon defination: org.talend.themes.common, /resources/scaled/mapping.json
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 16:52:27.686
+!MESSAGE 2024-10-11 16:52:27,686 INFO  org.talend.rcp.intro.Application  - 
+!!------------------------------------------------------------------------------!!
+!!                                                                              !!
+!!                                    TALEND                                    !!
+!!   Starting Talend's platform log system.VERSION= 8.0.1.20240524_0800-patch   !!
+!!                                                                              !!
+!!------------------------------------------------------------------------------!!
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 16:52:28.055
+!MESSAGE 2024-10-11 16:52:28,055 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into http.nonProxyHosts: [localhost, 172.26.*, 172.27.*, 172.16.*, 172.24.*, 172.25.*, 172.18.*, <local>, 172.17.*, 172.28.*, 172.19.*, 172.29.*, 10.*, 192.168.*, 127.*, 172.30.*, 172.22.*, 0:0:0:0:0:0:0:1, 172.23.*, 127.0.0.1, 172.20.*, 172.31.*, 172.21.*]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 16:52:28.059
+!MESSAGE 2024-10-11 16:52:28,056 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into https.nonProxyHosts: [localhost, 172.26.*, 172.27.*, 172.16.*, 172.24.*, 172.25.*, 172.18.*, <local>, 172.17.*, 172.28.*, 172.19.*, 172.29.*, 10.*, 192.168.*, 127.*, 172.30.*, 172.22.*, 0:0:0:0:0:0:0:1, 172.23.*, 127.0.0.1, 172.20.*, 172.31.*, 172.21.*]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 16:52:28.095
+!MESSAGE 2024-10-11 16:52:28,094 INFO  org.talend.studiolite.p2.api.P2Util  - Is upgrading target platform: false
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-10-11 16:52:28.234
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 16:52:31.715
+!MESSAGE 2024-10-11 16:52:31,714 INFO  org.talend.repository.ui.login.LoginProjectPage  - start to update git storage mode
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 16:52:31.744
+!MESSAGE 2024-10-11 16:52:31,744 INFO  org.talend.repository.ui.login.LoginProjectPage  - git storage mode was already set, standard: true
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 16:52:41.781
+!MESSAGE 2024-10-11 16:52:41,780 INFO  org.talend.sdk.component.studio.ProcessManager  - Local addresses passed to sdk: [127.0.0.1, [0:0:0:0:0:0:0:1]]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 16:52:43.999
+!MESSAGE 2024-10-11 16:52:43,998 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 16:52:44.720
+!MESSAGE 2024-10-11 16:52:44,720 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - coco@123.com 登录到 test
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 16:52:45.646
+!MESSAGE 2024-10-11 16:52:45,646 INFO  org.talend.sdk.component.studio.ProcessManager  - Succeed to connect [http://127.0.0.1:63882/api/v1/environment]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 16:52:47.859
+!MESSAGE 2024-10-11 16:52:47,858 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 16:52:47.875
+!MESSAGE 2024-10-11 16:52:47,874 INFO  org.talend.repository.view.remote.InitializeLockStatusLoginTask  - Initialize lock status
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 16:52:48.308
+!MESSAGE 2024-10-11 16:52:48,308 INFO  org.talend.designer.codegen.components.model.ComponentsLoader  - allSet size: 635, total: 635
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 16:52:54.052
+!MESSAGE 2024-10-11 16:52:54,051 INFO  org.talend.designer.codegen.components.model.ComponentsFactory  - 692 components loaded in 6021 ms
+
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-11 16:53:23.137
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yyyan'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-10-11 16:53:34.327
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2024-10-11 16:53:35.164 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.12
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -talendReload false -talendRestart true
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -talendReload false -talendRestart true
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-10-11 16:53:37.005
+!MESSAGE Both 'org.talend.designer.unitemap' and 'org.talend.designer.unitemap' register a package for 'http://www.talend.org/unitemap'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-10-11 16:53:37.007
+!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'http://www.talend.org/component_cache'
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 16:53:39.313
+!MESSAGE 2024-10-11 16:53:39,311 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.metadata.bridge.ui, imagePath=icons/export_action.gif, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 16:53:39.316
+!MESSAGE 2024-10-11 16:53:39,313 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.metadata.bridge.ui, imagePath=icons/import_action.gif, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 16:53:39.321
+!MESSAGE 2024-10-11 16:53:39,318 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/create-route-resource.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 16:53:39.325
+!MESSAGE 2024-10-11 16:53:39,321 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/edit-resource.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 16:53:39.328
+!MESSAGE 2024-10-11 16:53:39,325 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/open-another-version.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 16:53:39.330
+!MESSAGE 2024-10-11 16:53:39,328 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/resource.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 16:53:39.333
+!MESSAGE 2024-10-11 16:53:39,331 INFO  org.talend.themes.common.ImagesMapping  - Loaded icon defination: org.talend.themes.common, /resources/mapping.json
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 16:53:39.345
+!MESSAGE 2024-10-11 16:53:39,344 INFO  org.talend.themes.common.ImagesMapping  - Loaded icon defination: org.talend.themes.common, /resources/scaled/mapping.json
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 16:53:43.537
+!MESSAGE 2024-10-11 16:53:43,536 INFO  org.talend.rcp.intro.Application  - 
+!!------------------------------------------------------------------------------!!
+!!                                                                              !!
+!!                                    TALEND                                    !!
+!!   Starting Talend's platform log system.VERSION= 8.0.1.20240524_0800-patch   !!
+!!                                                                              !!
+!!------------------------------------------------------------------------------!!
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 16:53:44.016
+!MESSAGE 2024-10-11 16:53:44,015 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into http.nonProxyHosts: [localhost, 172.26.*, 172.27.*, 172.16.*, 172.24.*, 172.25.*, 172.18.*, <local>, 172.17.*, 172.28.*, 172.19.*, 172.29.*, 10.*, 192.168.*, 127.*, 172.30.*, 172.22.*, 0:0:0:0:0:0:0:1, 172.23.*, 127.0.0.1, 172.20.*, 172.31.*, 172.21.*]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 16:53:44.021
+!MESSAGE 2024-10-11 16:53:44,017 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into https.nonProxyHosts: [localhost, 172.26.*, 172.27.*, 172.16.*, 172.24.*, 172.25.*, 172.18.*, <local>, 172.17.*, 172.28.*, 172.19.*, 172.29.*, 10.*, 192.168.*, 127.*, 172.30.*, 172.22.*, 0:0:0:0:0:0:0:1, 172.23.*, 127.0.0.1, 172.20.*, 172.31.*, 172.21.*]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 16:53:44.080
+!MESSAGE 2024-10-11 16:53:44,078 INFO  org.talend.studiolite.p2.api.P2Util  - Is upgrading target platform: false
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-10-11 16:53:44.277
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 16:53:48.845
+!MESSAGE 2024-10-11 16:53:48,845 INFO  org.talend.repository.ui.login.LoginProjectPage  - start to update git storage mode
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 16:53:48.876
+!MESSAGE 2024-10-11 16:53:48,875 INFO  org.talend.repository.ui.login.LoginProjectPage  - git storage mode was already set, standard: true
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 17:04:33.216
+!MESSAGE 2024-10-11 17:04:33,215 INFO  org.talend.commons.exception.CommonExceptionHandler  - Can't find repository factory for: 
+
+!SESSION 2024-10-11 17:11:31.700 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.12
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-10-11 17:11:33.624
+!MESSAGE Both 'org.talend.designer.unitemap' and 'org.talend.designer.unitemap' register a package for 'http://www.talend.org/unitemap'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-10-11 17:11:33.626
+!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'http://www.talend.org/component_cache'
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 17:11:35.346
+!MESSAGE 2024-10-11 17:11:35,345 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.metadata.bridge.ui, imagePath=icons/export_action.gif, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 17:11:35.349
+!MESSAGE 2024-10-11 17:11:35,347 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.metadata.bridge.ui, imagePath=icons/import_action.gif, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 17:11:35.352
+!MESSAGE 2024-10-11 17:11:35,351 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/create-route-resource.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 17:11:35.355
+!MESSAGE 2024-10-11 17:11:35,352 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/edit-resource.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 17:11:35.357
+!MESSAGE 2024-10-11 17:11:35,355 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/open-another-version.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 17:11:35.359
+!MESSAGE 2024-10-11 17:11:35,357 WARN  org.talend.themes.common.ImagesMapping  - Duplicate image defination in: org.talend.themes.common, Src: SourceImageBean [bundleName=org.talend.repository.resource, imagePath=icons/resource.png, lifeCycle=null]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 17:11:35.362
+!MESSAGE 2024-10-11 17:11:35,360 INFO  org.talend.themes.common.ImagesMapping  - Loaded icon defination: org.talend.themes.common, /resources/mapping.json
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 17:11:35.369
+!MESSAGE 2024-10-11 17:11:35,369 INFO  org.talend.themes.common.ImagesMapping  - Loaded icon defination: org.talend.themes.common, /resources/scaled/mapping.json
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 17:11:40.215
+!MESSAGE 2024-10-11 17:11:40,214 INFO  org.talend.rcp.intro.Application  - 
+!!------------------------------------------------------------------------------!!
+!!                                                                              !!
+!!                                    TALEND                                    !!
+!!   Starting Talend's platform log system.VERSION= 8.0.1.20240524_0800-patch   !!
+!!                                                                              !!
+!!------------------------------------------------------------------------------!!
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 17:11:40.743
+!MESSAGE 2024-10-11 17:11:40,733 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into http.nonProxyHosts: [localhost, 172.26.*, 172.27.*, 172.16.*, 172.24.*, 172.25.*, 172.18.*, <local>, 172.17.*, 172.28.*, 172.19.*, 172.29.*, 10.*, 192.168.*, 127.*, 172.30.*, 172.22.*, 0:0:0:0:0:0:0:1, 172.23.*, 127.0.0.1, 172.20.*, 172.31.*, 172.21.*]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 17:11:40.764
+!MESSAGE 2024-10-11 17:11:40,745 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into https.nonProxyHosts: [localhost, 172.26.*, 172.27.*, 172.16.*, 172.24.*, 172.25.*, 172.18.*, <local>, 172.17.*, 172.28.*, 172.19.*, 172.29.*, 10.*, 192.168.*, 127.*, 172.30.*, 172.22.*, 0:0:0:0:0:0:0:1, 172.23.*, 127.0.0.1, 172.20.*, 172.31.*, 172.21.*]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 17:11:40.902
+!MESSAGE 2024-10-11 17:11:40,901 INFO  org.talend.studiolite.p2.api.P2Util  - Is upgrading target platform: false
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-10-11 17:11:41.088
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 17:11:56.225
+!MESSAGE 2024-10-11 17:11:56,225 INFO  org.talend.repository.ui.login.LoginProjectPage  - start to update git storage mode
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 17:11:56.361
+!MESSAGE 2024-10-11 17:11:56,354 INFO  org.talend.repository.ui.login.LoginProjectPage  - git storage mode was already set, standard: true
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 17:12:11.938
+!MESSAGE 2024-10-11 17:12:11,937 INFO  org.talend.sdk.component.studio.ProcessManager  - Local addresses passed to sdk: [127.0.0.1, [0:0:0:0:0:0:0:1]]
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 17:12:14.256
+!MESSAGE 2024-10-11 17:12:14,255 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 17:12:15.507
+!MESSAGE 2024-10-11 17:12:15,507 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - coco@123.com 登录到 test
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 17:12:16.557
+!MESSAGE 2024-10-11 17:12:15,846 INFO  org.talend.sdk.component.studio.ProcessManager  - Succeed to connect [http://127.0.0.1:65501/api/v1/environment]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 17:12:20.063
+!MESSAGE 2024-10-11 17:12:20,063 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 17:12:20.091
+!MESSAGE 2024-10-11 17:12:20,079 INFO  org.talend.repository.view.remote.InitializeLockStatusLoginTask  - Initialize lock status
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 17:12:21.141
+!MESSAGE 2024-10-11 17:12:21,140 INFO  org.talend.designer.codegen.components.model.ComponentsLoader  - allSet size: 635, total: 635
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-10-11 17:12:27.283
+!MESSAGE 2024-10-11 17:12:27,282 INFO  org.talend.designer.codegen.components.model.ComponentsFactory  - 692 components loaded in 6537 ms
+
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-11 17:12:57.748
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\yyyan'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 17:13:30.720
+!MESSAGE 2024-10-11 17:13:30,719 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: DATAPROC-LAUNCHER-DI
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 17:13:30.723
+!MESSAGE 2024-10-11 17:13:30,720 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HIVE-2.X.X
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 17:13:30.725
+!MESSAGE 2024-10-11 17:13:30,723 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HADOOP-3.X.X
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 17:13:30.726
+!MESSAGE 2024-10-11 17:13:30,725 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HADOOP-2.X.X
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 17:13:30.766
+!MESSAGE 2024-10-11 17:13:30,765 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: DATAPROC-LAUNCHER-DI
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 17:13:30.768
+!MESSAGE 2024-10-11 17:13:30,766 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HIVE-2.X.X
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 17:13:30.770
+!MESSAGE 2024-10-11 17:13:30,768 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HADOOP-3.X.X
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 17:13:30.772
+!MESSAGE 2024-10-11 17:13:30,770 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HADOOP-2.X.X
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 17:13:30.796
+!MESSAGE 2024-10-11 17:13:30,796 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: DATAPROC-LAUNCHER-DI
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 17:13:30.798
+!MESSAGE 2024-10-11 17:13:30,796 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HIVE-2.X.X
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 17:13:30.800
+!MESSAGE 2024-10-11 17:13:30,799 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HADOOP-3.X.X
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-10-11 17:13:30.803
+!MESSAGE 2024-10-11 17:13:30,801 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: HADOOP-2.X.X
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-10-11 17:44:00.495
+!MESSAGE The workspace will exit with unsaved changes in this session.

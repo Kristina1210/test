@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_ilhTcIeBEe-meIrMGKRY3g" id="_ilalwIeBEe-meIrMGKRY3g" label="test_java" version="0.1" statusCode="" item="_ilhTcoeBEe-meIrMGKRY3g" displayName="test_java">
+    <author href="../../talend.project#_94BqEId7Ee-be-hgF8hNzA"/>
+    <additionalProperties xmi:id="_imYPEIeBEe-meIrMGKRY3g" key="created_product_fullname" value="Talend Real-time Big Data Platform"/>
+    <additionalProperties xmi:id="_imY2IIeBEe-meIrMGKRY3g" key="created_product_version" value="8.0.1.20240524_0800-patch"/>
+    <additionalProperties xmi:id="_imY2IYeBEe-meIrMGKRY3g" key="created_date" value="2024-10-11T11:33:11.424+0800"/>
+    <additionalProperties xmi:id="_imY2IoeBEe-meIrMGKRY3g" key="modified_product_fullname" value="Talend Real-time Big Data Platform"/>
+    <additionalProperties xmi:id="_imY2I4eBEe-meIrMGKRY3g" key="modified_product_version" value="8.0.1.20240524_0800-patch"/>
+    <additionalProperties xmi:id="_imY2JIeBEe-meIrMGKRY3g" key="modified_date" value="2024-10-11T17:13:56.024+0800"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_ilhTcYeBEe-meIrMGKRY3g" path="demo" locked="true" lockDate="2024-10-11T17:13:56.024+0800">
+    <locker href="../../talend.project#_94BqEId7Ee-be-hgF8hNzA"/>
+  </TalendProperties:ItemState>
+  <TalendProperties:ProcessItem xmi:id="_ilhTcoeBEe-meIrMGKRY3g" property="_ilhTcIeBEe-meIrMGKRY3g" state="_ilhTcYeBEe-meIrMGKRY3g">
+    <process href="test_java_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>
